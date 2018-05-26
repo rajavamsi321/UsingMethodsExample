@@ -31,21 +31,22 @@
             this.lblSub1 = new System.Windows.Forms.Label();
             this.lblSub2 = new System.Windows.Forms.Label();
             this.gBoxStdt1 = new System.Windows.Forms.GroupBox();
+            this.tBSub3S1 = new System.Windows.Forms.TextBox();
+            this.tBSub2S1 = new System.Windows.Forms.TextBox();
+            this.tBSub1S1 = new System.Windows.Forms.TextBox();
             this.lblSub3 = new System.Windows.Forms.Label();
             this.gBoxStdt2 = new System.Windows.Forms.GroupBox();
-            this.lblSub1S2 = new System.Windows.Forms.Label();
-            this.lblSub2S2 = new System.Windows.Forms.Label();
+            this.tBoxSub3S2 = new System.Windows.Forms.TextBox();
+            this.tBoxSub2S2 = new System.Windows.Forms.TextBox();
+            this.tBoxSub1S2 = new System.Windows.Forms.TextBox();
             this.lblSub3S2 = new System.Windows.Forms.Label();
+            this.lblSub2S2 = new System.Windows.Forms.Label();
+            this.lblSub1S2 = new System.Windows.Forms.Label();
             this.btnStdt1 = new System.Windows.Forms.Button();
             this.btnStdt2 = new System.Windows.Forms.Button();
             this.lstBoxOutputS1 = new System.Windows.Forms.ListBox();
             this.lstBoxOutputS2 = new System.Windows.Forms.ListBox();
-            this.tBSub1S1 = new System.Windows.Forms.TextBox();
-            this.tBSub2S1 = new System.Windows.Forms.TextBox();
-            this.tBSub3S1 = new System.Windows.Forms.TextBox();
-            this.tBoxSub1S2 = new System.Windows.Forms.TextBox();
-            this.tBoxSub2S2 = new System.Windows.Forms.TextBox();
-            this.tBoxSub3S2 = new System.Windows.Forms.TextBox();
+            this.btnDelLogs = new System.Windows.Forms.Button();
             this.gBoxStdt1.SuspendLayout();
             this.gBoxStdt2.SuspendLayout();
             this.SuspendLayout();
@@ -83,6 +84,27 @@
             this.gBoxStdt1.TabStop = false;
             this.gBoxStdt1.Text = "Student 1";
             // 
+            // tBSub3S1
+            // 
+            this.tBSub3S1.Location = new System.Drawing.Point(160, 144);
+            this.tBSub3S1.Name = "tBSub3S1";
+            this.tBSub3S1.Size = new System.Drawing.Size(100, 22);
+            this.tBSub3S1.TabIndex = 5;
+            // 
+            // tBSub2S1
+            // 
+            this.tBSub2S1.Location = new System.Drawing.Point(160, 91);
+            this.tBSub2S1.Name = "tBSub2S1";
+            this.tBSub2S1.Size = new System.Drawing.Size(100, 22);
+            this.tBSub2S1.TabIndex = 4;
+            // 
+            // tBSub1S1
+            // 
+            this.tBSub1S1.Location = new System.Drawing.Point(160, 40);
+            this.tBSub1S1.Name = "tBSub1S1";
+            this.tBSub1S1.Size = new System.Drawing.Size(100, 22);
+            this.tBSub1S1.TabIndex = 3;
+            // 
             // lblSub3
             // 
             this.lblSub3.AutoSize = true;
@@ -107,14 +129,35 @@
             this.gBoxStdt2.TabStop = false;
             this.gBoxStdt2.Text = "Student 2";
             // 
-            // lblSub1S2
+            // tBoxSub3S2
             // 
-            this.lblSub1S2.AutoSize = true;
-            this.lblSub1S2.Location = new System.Drawing.Point(39, 40);
-            this.lblSub1S2.Name = "lblSub1S2";
-            this.lblSub1S2.Size = new System.Drawing.Size(45, 17);
-            this.lblSub1S2.TabIndex = 1;
-            this.lblSub1S2.Text = "Sub 1";
+            this.tBoxSub3S2.Location = new System.Drawing.Point(134, 144);
+            this.tBoxSub3S2.Name = "tBoxSub3S2";
+            this.tBoxSub3S2.Size = new System.Drawing.Size(100, 22);
+            this.tBoxSub3S2.TabIndex = 6;
+            // 
+            // tBoxSub2S2
+            // 
+            this.tBoxSub2S2.Location = new System.Drawing.Point(134, 91);
+            this.tBoxSub2S2.Name = "tBoxSub2S2";
+            this.tBoxSub2S2.Size = new System.Drawing.Size(100, 22);
+            this.tBoxSub2S2.TabIndex = 5;
+            // 
+            // tBoxSub1S2
+            // 
+            this.tBoxSub1S2.Location = new System.Drawing.Point(134, 40);
+            this.tBoxSub1S2.Name = "tBoxSub1S2";
+            this.tBoxSub1S2.Size = new System.Drawing.Size(100, 22);
+            this.tBoxSub1S2.TabIndex = 4;
+            // 
+            // lblSub3S2
+            // 
+            this.lblSub3S2.AutoSize = true;
+            this.lblSub3S2.Location = new System.Drawing.Point(39, 147);
+            this.lblSub3S2.Name = "lblSub3S2";
+            this.lblSub3S2.Size = new System.Drawing.Size(45, 17);
+            this.lblSub3S2.TabIndex = 3;
+            this.lblSub3S2.Text = "Sub 3";
             // 
             // lblSub2S2
             // 
@@ -125,14 +168,14 @@
             this.lblSub2S2.TabIndex = 2;
             this.lblSub2S2.Text = "Sub 2";
             // 
-            // lblSub3S2
+            // lblSub1S2
             // 
-            this.lblSub3S2.AutoSize = true;
-            this.lblSub3S2.Location = new System.Drawing.Point(39, 147);
-            this.lblSub3S2.Name = "lblSub3S2";
-            this.lblSub3S2.Size = new System.Drawing.Size(45, 17);
-            this.lblSub3S2.TabIndex = 3;
-            this.lblSub3S2.Text = "Sub 3";
+            this.lblSub1S2.AutoSize = true;
+            this.lblSub1S2.Location = new System.Drawing.Point(39, 40);
+            this.lblSub1S2.Name = "lblSub1S2";
+            this.lblSub1S2.Size = new System.Drawing.Size(45, 17);
+            this.lblSub1S2.TabIndex = 1;
+            this.lblSub1S2.Text = "Sub 1";
             // 
             // btnStdt1
             // 
@@ -172,53 +215,22 @@
             this.lstBoxOutputS2.Size = new System.Drawing.Size(261, 212);
             this.lstBoxOutputS2.TabIndex = 6;
             // 
-            // tBSub1S1
+            // btnDelLogs
             // 
-            this.tBSub1S1.Location = new System.Drawing.Point(160, 40);
-            this.tBSub1S1.Name = "tBSub1S1";
-            this.tBSub1S1.Size = new System.Drawing.Size(100, 22);
-            this.tBSub1S1.TabIndex = 3;
-            // 
-            // tBSub2S1
-            // 
-            this.tBSub2S1.Location = new System.Drawing.Point(160, 91);
-            this.tBSub2S1.Name = "tBSub2S1";
-            this.tBSub2S1.Size = new System.Drawing.Size(100, 22);
-            this.tBSub2S1.TabIndex = 4;
-            // 
-            // tBSub3S1
-            // 
-            this.tBSub3S1.Location = new System.Drawing.Point(160, 144);
-            this.tBSub3S1.Name = "tBSub3S1";
-            this.tBSub3S1.Size = new System.Drawing.Size(100, 22);
-            this.tBSub3S1.TabIndex = 5;
-            // 
-            // tBoxSub1S2
-            // 
-            this.tBoxSub1S2.Location = new System.Drawing.Point(134, 40);
-            this.tBoxSub1S2.Name = "tBoxSub1S2";
-            this.tBoxSub1S2.Size = new System.Drawing.Size(100, 22);
-            this.tBoxSub1S2.TabIndex = 4;
-            // 
-            // tBoxSub2S2
-            // 
-            this.tBoxSub2S2.Location = new System.Drawing.Point(134, 91);
-            this.tBoxSub2S2.Name = "tBoxSub2S2";
-            this.tBoxSub2S2.Size = new System.Drawing.Size(100, 22);
-            this.tBoxSub2S2.TabIndex = 5;
-            // 
-            // tBoxSub3S2
-            // 
-            this.tBoxSub3S2.Location = new System.Drawing.Point(134, 144);
-            this.tBoxSub3S2.Name = "tBoxSub3S2";
-            this.tBoxSub3S2.Size = new System.Drawing.Size(100, 22);
-            this.tBoxSub3S2.TabIndex = 6;
+            this.btnDelLogs.Location = new System.Drawing.Point(765, 597);
+            this.btnDelLogs.Name = "btnDelLogs";
+            this.btnDelLogs.Size = new System.Drawing.Size(113, 38);
+            this.btnDelLogs.TabIndex = 7;
+            this.btnDelLogs.Text = "Delete Logs";
+            this.btnDelLogs.UseVisualStyleBackColor = true;
+            this.btnDelLogs.Click += new System.EventHandler(this.btnDelLogs_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(900, 657);
+            this.Controls.Add(this.btnDelLogs);
             this.Controls.Add(this.lstBoxOutputS2);
             this.Controls.Add(this.lstBoxOutputS1);
             this.Controls.Add(this.btnStdt2);
@@ -255,6 +267,7 @@
         private System.Windows.Forms.Button btnStdt2;
         private System.Windows.Forms.ListBox lstBoxOutputS1;
         private System.Windows.Forms.ListBox lstBoxOutputS2;
+        private System.Windows.Forms.Button btnDelLogs;
     }
 }
 
